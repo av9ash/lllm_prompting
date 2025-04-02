@@ -1,5 +1,20 @@
 # Prompt Engineering Techniques
 
+## License and Citation
+This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+Please cite if you find this useful. Thanks
+
+```
+@article{patil2025advancing,
+  title={Advancing Reasoning in Large Language Models: Promising Methods and Approaches},
+  author={Patil, Avinash},
+  journal={arXiv preprint arXiv:2502.03671},
+  year={2025}
+}
+```
+For more details on the license, visit [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
 ## Zero-Shot Prompting
 Zero-shot prompting is the simplest approach: the prompt directly instructs the model to perform a task without providing any examples or demonstrations. In this setting, the model relies entirely on its pre-trained knowledge and instruction-following ability to respond​. For example, you might just ask, “Translate the following sentence into French:” followed by the sentence, and the model must do so based on learned knowledge. This method works well for general tasks but may struggle on highly specific or complex tasks since the model isn’t guided by any contextual examples. The primary benefit is its simplicity and broad applicability – you can prompt the model for anything “out of the box” and leverage its training data, without needing to hand-craft examples.
 
